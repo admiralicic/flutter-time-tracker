@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:time_tracker_flutter_course/app/sign_in/sign_in_page.dart';
 
 void main(List<String> args) {
   runApp(MyApp());
@@ -12,8 +13,8 @@ void main(List<String> args) {
         theme: ThemeData(
           primarySwatch: Colors.indigo
         ),
-        home: Container(
-          color: Colors.white,
+        home: SignInPage(
+          
         ),
       );
     }
