@@ -14,7 +14,7 @@ void main(List<String> args) {
           primarySwatch: Colors.indigo
         ),
         home: SignInPage(
-          
+
         ),
       );
     }
